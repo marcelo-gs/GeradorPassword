@@ -10,7 +10,7 @@ def shuffle(string):
     random.shuffle(tempList)
     return ''.join(tempList)
 
-#Main program starts here
+#Main program starts here...
 uppercaseLetter1=chr(random.randint(65,90)) #Generate a random Uppercase letter (based on ASCII code)
 uppercaseLetter2=chr(random.randint(65,90)) #Generate a random Uppercase letter (based on ASCII code)
 lowercaseLetter1=chr(random.randint(97,122)) #Generate a random lowercase letter (based on ASCII code)
